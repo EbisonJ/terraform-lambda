@@ -26,6 +26,7 @@ resource "aws_iam_role" "lambdarole" {
 EOF
 }
 
+
 resource "aws_s3_bucket" "edjs3" {
   bucket = "tfe-lambda-edj-trigger"
 
